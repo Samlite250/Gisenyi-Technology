@@ -1,0 +1,21 @@
+-- GTIC initial schema (placeholder - to be expanded)
+-- Use versioned migrations; this file documents structure
+
+-- Core tables (planned):
+-- staff_profiles (user_id, role, active, ...)
+-- services
+-- projects
+-- programmes, intakes
+-- applications, application_documents, review_decisions
+-- students, enrolments
+-- service_transactions, payments, payment_allocations
+-- invoices, invoice_items, receipts
+-- expenses
+-- correction_requests
+-- audit_events
+-- website_content, hero_slides
+-- enquiries
+-- media
+-- email_outbox
+
+-- All money: numeric(12,2). Timestamps: timestamptz (UTC). Use RLS.
