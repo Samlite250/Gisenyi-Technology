@@ -6,7 +6,7 @@ Corporate website and integrated internal management system for GTIC (Gisenyi, R
 - Frontend: React + Vite + TypeScript + Tailwind CSS + React Router + TanStack Query + React Hook Form + Zod
 - Backend: Node.js + Express + TypeScript
 - Database/Auth/Storage: Supabase (PostgreSQL, Auth, Storage)
-- Deployment: Vercel (separate frontend/backend projects)
+- Deployment: Vercel Services (one project for frontend and backend)
 - Email: Configurable transactional email provider (with local dev preview)
 
 ## Structure
